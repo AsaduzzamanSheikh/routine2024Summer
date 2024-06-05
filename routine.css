@@ -1,0 +1,103 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 950px;
+  row-gap: 5px;
+  column-gap: 10px;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
+  color: #f8f9f5;
+}
+
+#cl {
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+  border: none;
+  border-radius: 5.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cl1 {
+  grid-column: 1 / span 6;
+  grid-row: 1;
+  height: 70px;
+}
+.cl4 {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 5;
+
+  text-align: center;
+  font-size: 30px;
+}
+#online {
+  border: none;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  border-radius: 10px;
+  margin: auto;
+  width: 75.7%;
+  padding: 1px;
+  margin-top: 15px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
+}
+body {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  /* margin: 0; */
+  background-size: 100% 100%;
+}
+h1 {
+  text-shadow: 3px 2px 3px #000;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
+li {
+  border: none;
+  background: radial-gradient(
+    263px at 100.2% 3%,
+    rgb(12, 85, 141) 31.1%,
+    rgb(205, 181, 93) 36.4%,
+    rgb(244, 102, 90) 50.9%,
+    rgb(199, 206, 187) 60.7%,
+    rgb(249, 140, 69) 72.5%,
+    rgb(12, 73, 116) 72.6%
+  );
+
+  color: white;
+  width: 40%;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 70px 50px 67px 2px;
+  box-shadow: 2px 2.7px gray;
+}
+ul {
+  list-style-type: none;
+}
+.day {
+  position: relative;
+  top: 40%;
+  font-weight: 700;
+}
+.day-1 {
+  position: relative;
+  top: 30%;
+}
